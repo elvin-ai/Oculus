@@ -11,4 +11,3 @@ if name:
     engine.say(f"Hello, {name}!")
     engine.runAndWait()
 
-print("hello");
