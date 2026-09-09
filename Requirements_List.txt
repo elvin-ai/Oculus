@@ -1,0 +1,8 @@
+The Libraries used by me in OculusAI are :
+1. OpenCV - For video capturing
+2. YOLO - For detecting and labelling objects ahead
+3. av - for processing live video
+4. Pandas - for storing detections in a tabular format
+5. Streamlit - For a clean, polished UI
+6. pyttsx3 - for text to speech conversion 
+7. streamlit-webrtc - for a better video processing
