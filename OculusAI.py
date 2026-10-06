@@ -10,7 +10,6 @@ import threading
 st.title("Welcome To OculusAI.")
 st.write("OculusAI - An AI Powered Vision Assistant for Visually Impaired.")
 
-# Non-blocking voice function
 def speak(text):
    def _speak():
       eng = pyttsx3.init()
