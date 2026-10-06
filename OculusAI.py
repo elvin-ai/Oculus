@@ -61,7 +61,6 @@ class VideoProcessor(VideoProcessorBase):
 
       current_time = time.time()
       for item in detected_announcements:
-         # Only announce if new, or not announced in the last 20 seconds
          if item not in self.announced_objects or (current_time - self.announced_objects[item] > 20):
             if current_time - self.last_spoken_time > 3:
                self.announced_objects[item] = current_time
